@@ -7,7 +7,7 @@ import './style.css';
 export default function Header() {
 
   function openMenu() {
-    console.log("Hello!")
+    alert('Open menu')
   }
 
   return (
