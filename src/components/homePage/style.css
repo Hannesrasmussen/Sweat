@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+#homePageContainer {
+    position: absolute;
+    display: flex;
+    box-sizing: content-box;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color:rgb(199, 35, 35);
+}
+
+#homePage {
+    position:absolute;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+
+    height: calc(100% - 60px);
+    width: 100%;
+    padding: 25px;
+
+    overflow-y: scroll;
+}
+
+#homePage::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+  
+#homePage::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);        /* color of the tracking area */
+}
+  
+#homePage::-webkit-scrollbar-thumb {
+    background-color: #ffffff4d;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+}
+#homePage::-webkit-scrollbar-thumb:hover {
+    background-color: #ffffff;    /* color of the scroll thumb */
+}
+
+
+/* Recent Payments */
+#recentPayments {
+    box-sizing:border-box;
+    background-color: rgb(18, 18, 18);
+    max-width: 45%;
+    height: fit-content;
+    margin: 0;
+    padding: 20px;
+}
+

@@ -1,9 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 body {
   margin: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-color:rgb(12, 12, 12);
 }
 
-.App {
-  
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  color: white;
 }
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+  color: rgb(167, 104, 104);
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
