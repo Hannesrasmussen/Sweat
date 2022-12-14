@@ -16,7 +16,7 @@ export default function Header() {
       <button id="menuButton" type="button" onClick={openMenu}>
         <AiOutlineMenu id="burger"/>
       </button>
-      <img id="header-img" src="../../../nomi.png"/>
+      <img id="headerImg" draggable="false" src="../../../sweat.png" alt="sweat-logo"/>
     </header>
   )
 }

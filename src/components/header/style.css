@@ -1,3 +1,5 @@
+
+
 header {
     box-sizing:border-box;
     background-color: black;
@@ -9,13 +11,11 @@ header {
     overflow-y: hidden;
 }
 
-#header-img {
+#headerImg {
     box-sizing:border-box;
     color: white;
     padding: 10px;
-    margin-left: 20px;
     letter-spacing: 5px;
-    transform: scale(1.5)
 }
 
 #header-slogan {
@@ -31,6 +31,7 @@ header {
     box-sizing:border-box;
     float: left;
     padding: 0;
+    margin-right: 45px;
 
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0);

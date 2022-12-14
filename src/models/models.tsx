@@ -1,4 +1,4 @@
-export interface IPaymentItem {
+export interface IWorkoutItem {
     type: string,
     title: string,
     description: string,
